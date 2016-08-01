@@ -23,17 +23,17 @@ casper.test.begin("full-test", 15, function(test) {
         this.click("#altlogin");
       }
     }, function() {
-      casper.waitForSelector('a[data-subid="uninett.no"]', function() {
-        test.assertExists('a[data-subid="uninett.no"]', "Checking for UNINETT.no button");
-        this.click("a[data-subid='uninett.no']");
+      casper.waitForSelector('a[data-subid="spusers.feide.no"]', function() {
+        test.assertExists('a[data-subid="spusers.feide.no"]', "Checking for UNINETT.no button");
+        this.click("a[data-subid='spusers.feide.no']");
       });
     });
   });
 
   casper.then(function() {
-    casper.waitForSelector('a[data-subid="uninett.no"]', function() {
-      test.assertExists('a[data-subid="uninett.no"]', "Checking for UNINETT.no button");
-      this.click("a[data-subid='uninett.no']");
+    casper.waitForSelector('a[data-subid="spusers.feide.no"]', function() {
+      test.assertExists('a[data-subid="spusers.feide.no"]', "Checking for UNINETT.no button");
+      this.click("a[data-subid='spusers.feide.no']");
     })
   });
 
