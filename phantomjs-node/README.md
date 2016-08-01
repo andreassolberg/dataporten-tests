@@ -1,4 +1,4 @@
-PhantomJS tests for Dataporten
+# PhantomJS tests for Dataporten
 
 ##### Note you need PhantomJS (http://phantomjs.org/) for this to work
 
