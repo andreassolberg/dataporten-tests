@@ -14,7 +14,7 @@ var OAuth = require('./lib/OAuth').OAuth;
 
 var config = {
 	"url": "https://auth.dataporten.no/",
-	"org": "uninett.no",
+	"org": "spusers.feide.no",
 	"username": process.env.USERNAME,
 	"password": process.env.PASSWORD,
 	"oauth": {
